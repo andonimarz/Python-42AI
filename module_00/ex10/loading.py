@@ -20,7 +20,7 @@ def ft_progress(lst):
             print("...", end="")
 
 if __name__ == "__main__":
-	listy = range(333) 
+	listy = range(3333) 
 	ret = 0
 	for elem in ft_progress(listy):
 		ret += elem
